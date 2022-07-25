@@ -1,0 +1,33 @@
+.grid {
+    position: absolute;
+    width: 560px;
+    height: 300px;
+    border: solid black 1px;
+    margin-top: 80px;
+}
+
+.block {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+    /* left: 50px;
+    bottom: 50px; will be added using javascript. they will be used to create an "anchor" point for the blue block */
+    
+}
+
+.user {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: purple;
+    
+}
+
+.ball {  /* you can use an actual image for this. refer to the whac a mole image styling for help */
+    position: absolute;  /*so you can assign the left and right border*/
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;  /*so it becomes circular*/
+    background-color: red;
+}
